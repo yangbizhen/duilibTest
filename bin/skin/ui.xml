@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="574,369" caption="0,0,0,-1">
+    <VerticalLayout name="bg" enabled="true" bkimage="file=&apos;tishi_bg.png&apos; corner=&apos;4,48,4,4&apos; " inset="4,0,4,4">
+        <HorizontalLayout enabled="true" height="32" inset="2,2,0,0">
+            <Label enabled="true" width="150" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+            <Control enabled="true" />
+            <Button name="minbtn" tooltip="最小化" enabled="true" width="42" maxheight="18" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;xiaohua.png&apos; mask=&apos;#FFFF00FF&apos;" hotimage="file=&apos;xiaohua_pressed.png&apos; mask=&apos;#FFFF00FF&apos;" pushedimage="file=&apos;xiaohua_pressed.png&apos; mask=&apos;#FFFF00FF&apos;" />
+            <Button name="closebtn" tooltip="关闭" enabled="true" width="42" maxheight="18" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;guanbi.png&apos; mask=&apos;#FFFF00FF&apos;" hotimage="file=&apos;guanbi_pressed.png&apos; mask=&apos;#FFFF00FF&apos;" pushedimage="file=&apos;guanbi_pressed.png&apos; mask=&apos;#FFFF00FF&apos;" />
+        </HorizontalLayout>
+        <Container enabled="true">
+            <Label name="warning" visible="false" float="true" pos="100,40,0,0" enabled="true" width="66" height="53" bkimage="file=&apos;jingshi.png&apos;" />
+            <Text name="content" float="true" pos="250,105,0,0" enabled="true" width="216" height="75" textpadding="2,0,2,0" showhtml="true" align="wrap" />
+            <RichEdit />
+            <Progress name="pg" visible="false" float="true" pos="60,60,0,0" enabled="true" width="454" height="10" bkimage="file=&apos;jindu_dikuang.png&apos;" align="center" min="0" max="100" value="0" hor="true" />
+            <Button name="retrybtn" visible="false" float="true" pos="480,80,0,0" enabled="true" width="66" height="28" align="center" normalimage="file=&apos;chongshi.png&apos; mask=&apos;#FFFF00FF&apos;" hotimage="file=&apos;chongshi_pressed.png&apos; mask=&apos;#FFFF00FF&apos;" pushedimage="file=&apos;chongshi_pressed.png&apos; mask=&apos;#FFFF00FF&apos;" />
+            <Label name="curver1" float="true" pos="15,295,0,0" enabled="true" width="137" height="33" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+            <Label name="newver1" float="true" pos="200,295,0,0" enabled="true" width="152" height="33" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+            <Button name="updatebtn" float="true" pos="330,295,0,0" enabled="true" width="93" height="28" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;tishi_shengji.png&apos; mask=&apos;#FFFF00FF&apos;" hotimage="file=&apos;tishi_shengji_pressed.png&apos; mask=&apos;#FFFF00FF&apos;" pushedimage="file=&apos;tishi_shengji_pressed.png&apos; mask=&apos;#FFFF00FF&apos;" />
+            <Button name="cancelbtn" float="true" pos="450,295,0,0" enabled="true" width="66" height="28" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;tishi_quxiao.png&apos; mask=&apos;#FFFF00FF&apos;" hotimage="file=&apos;tishi_quxiao_pressed.png&apos; mask=&apos;#FFFF00FF&apos;" pushedimage="file=&apos;tishi_quxiao_pressed.png&apos; mask=&apos;#FFFF00FF&apos;" />
+            <Button name="okbtn" visible="false" float="true" pos="330,250,0,0" enabled="true" width="97" height="28" align="center" normalimage="file=&apos;chongqi.png&apos; mask=&apos;#FFFF00FF&apos;" hotimage="file=&apos;chongqi_pressed.png&apos; mask=&apos;#FFFF00FF&apos;" pushedimage="file=&apos;chongqi_pressed.png&apos; mask=&apos;#FFFF00FF&apos;" />
+            <Button name="gengxinbtn" visible="false" float="true" pos="300,250,0,0" enabled="true" width="97" height="28" align="center" normalimage="file=&apos;gengxin.png&apos; mask=&apos;#FFFF00FF&apos;" hotimage="file=&apos;gengxin_pressed.png&apos; mask=&apos;#FFFF00FF&apos;" pushedimage="file=&apos;gengxin_pressed.png&apos; mask=&apos;#FFFF00FF&apos;" />
+        </Container>
+    </VerticalLayout>
+</Window>

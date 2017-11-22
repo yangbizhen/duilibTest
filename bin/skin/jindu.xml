@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="580,200">
+    <VerticalLayout name="bg" enabled="true" width="580" height="200" bkimage="jindu_bg.png">
+        <HorizontalLayout enabled="true" width="580" height="21">
+            <Label float="true" pos="0,0,0,0" enabled="true" width="500" height="21" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+            <Button name="close" float="true" pos="540,0,0,0" enabled="true" width="40" height="21" bkimage="guanbi.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Button name="min" float="true" pos="500,0,0,0" enabled="true" width="40" height="21" bkimage="xiaohua.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+        </HorizontalLayout>
+        <Progress float="true" pos="65,100,0,0" enabled="true" width="450" height="10" bkimage="jindu_dikuang.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" min="0" max="100" value="0" hor="true" />
+    </VerticalLayout>
+</Window>

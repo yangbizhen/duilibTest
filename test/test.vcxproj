@@ -151,7 +151,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="DUIMainFrame.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="SecondDialog.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DUIMainFrame.h" />
+    <ClInclude Include="SecondDialog.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

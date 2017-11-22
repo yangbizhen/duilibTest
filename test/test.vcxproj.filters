@@ -13,10 +13,30 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="第二个对话框">
+      <UniqueIdentifier>{690bc6a1-00e1-4fc1-ad32-5d141c618b0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="第一个主对话框">
+      <UniqueIdentifier>{79444147-5832-440b-b0a1-ab23fe556a4d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="DUIMainFrame.cpp">
+      <Filter>第一个主对话框</Filter>
+    </ClCompile>
+    <ClCompile Include="SecondDialog.cpp">
+      <Filter>第二个对话框</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DUIMainFrame.h">
+      <Filter>第一个主对话框</Filter>
+    </ClInclude>
+    <ClInclude Include="SecondDialog.h">
+      <Filter>第二个对话框</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
